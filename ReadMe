@@ -12,6 +12,7 @@
  * Version 1.0.2 Stefan Mü+hlbauer 08.06.2025
  * pinMode(pin, INPUT);
  * Version(),Pin(), Value() 
+ *
  * Commands 
  * 
  * Set the pin with

@@ -8,6 +8,8 @@
  * 
  * This library set the pin where is the lm35 sensor,
  * and converts the raw value to Celsius or Fahrenheit or Kelvin.
+  * Version V 1.0.2 Stefan Mühlbauer (08.06.2025)
+ * Add : Pin(), Value(), Version()
 */
 
 #ifndef LM35_h
@@ -21,7 +23,10 @@ class LM35
        LM35(int pin);
        float cel();
        float fah();
-	   float kel();
+       float kel();
+       int Pin();
+       int Value();
+       String Version();
 
    private:
        int _pin;
